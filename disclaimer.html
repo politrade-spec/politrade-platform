@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disclaimer - Politrade.com</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+
+        .disclaimer-container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border-top: 4px solid #1e3c72;
+        }
+
+        .disclaimer-header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .disclaimer-header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .disclaimer-header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .disclaimer-content {
+            padding: 40px;
+        }
+
+        .disclaimer-section {
+            margin-bottom: 30px;
+        }
+
+        .disclaimer-section h2 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .disclaimer-section h2::before {
+            content: "⚠️";
+            margin-right: 10px;
+        }
+
+        .disclaimer-section h3 {
+            color: #2a5298;
+            margin: 20px 0 10px;
+            font-size: 1.1rem;
+        }
+
+        .disclaimer-section p, .disclaimer-section li {
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+        .disclaimer-section ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .risk-highlights {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .risk-highlights h3 {
+            color: #856404;
+            margin-bottom: 15px;
+        }
+
+        .risk-highlights ul {
+            color: #856404;
+        }
+
+        .acknowledgment-section {
+            background: #e8f4f8;
+            border: 1px solid #bee5eb;
+            border-radius: 8px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+
+        .acknowledgment-section h3 {
+            color: #0c5460;
+            margin-bottom: 15px;
+        }
+
+        .checkbox-container {
+            display: flex;
+            align-items: flex-start;
+            margin: 15px 0;
+        }
+
+        .checkbox-container input[type="checkbox"] {
+            margin-right: 10px;
+            margin-top: 4px;
+            transform: scale(1.2);
+        }
+
+        .checkbox-container label {
+            color: #333;
+            cursor: pointer;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-accept {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+        }
+
+        .btn-accept:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(40, 167, 69, 0.3);
+        }
+
+        .btn-accept:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .btn-decline {
+            background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+            color: white;
+        }
+
+        .btn-decline:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(220, 53, 69, 0.3);
+        }
+
+        .back-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-link a {
+            color: #1e3c72;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .disclaimer-container {
+                margin: 20px 10px;
+            }
+
+            .disclaimer-content {
+                padding: 20px;
+            }
+
+            .action-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <div class="disclaimer-container">
+        <div class="disclaimer-header">
+            <h1>Stock Trading Disclaimer</h1>
+            <p>Important Legal Information - Please Read Carefully</p>
+        </div>
+
+        <div class="disclaimer-content">
+            <div class="disclaimer-section">
+                <h2>No Investment Advice</h2>
+                <p>The information provided by Politrade.com is for informational and educational purposes only and does not constitute investment advice, financial advice, trading advice, or any other type of advice.</p>
+                <p>We are not registered investment advisors, broker-dealers, or financial advisors. The congressional trading data provided is based on publicly available government disclosures and should not be construed as a recommendation to buy or sell any securities.</p>
+            </div>
+
+            <div class="disclaimer-section">
+                <h2>Information Accuracy and Limitations</h2>
+                <p>While we strive to provide accurate and timely information, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability of the information contained on this platform.</p>
+                
+                <h3>Limitations Include:</h3>
+                <ul>
+                    <li>Data may be delayed and not reflect real-time market conditions</li>
+                    <li>Congressional disclosures may contain errors or omissions</li>
+                    <li>Stock prices and market data are subject to delays and inaccuracies</li>
+                    <li>Historical performance is not indicative of future results</li>
+                    <li>Certain transactions may not be immediately reported or discoverable</li>
+                </ul>
+            </div>
+
+            <div class="risk-highlights">
+                <h3>⚠️ Significant Risk Factors</h3>
+                <ul>
+                    <li><strong>Market Risk:</strong> All investments involve risk, including possible loss of principal</li>
+                    <li><strong>Political Risk:</strong> Congressional trading may be influenced by non-public information or political considerations</li>
+                    <li><strong>Timing Risk:</strong> Disclosures are made periodically and may not reflect current positions</li>
+                    <li><strong>Legal Risk:</strong> Trading based on congressional information may raise legal and ethical questions</li>
+                    <li><strong>Data Risk:</strong> Government databases may contain incomplete or inaccurate information</li>
+                </ul>
+            </div>
+
+            <div class="disclaimer-section">
+                <h2>No Guarantee of Results</h2>
+                <p>Past performance of congressional members' trading activities does not guarantee future results. The fact that a member of Congress bought or sold a particular security does not mean that the security will increase or decrease in value.</p>
+                <p>Investment decisions should be based on your own research, risk tolerance, and consultation with qualified financial professionals.</p>
+            </div>
+
+            <div class="disclaimer-section">
+                <h2>Regulatory Compliance</h2>
+                <p>Users are responsible for complying with all applicable securities laws, regulations, and rules in their jurisdiction. This includes insider trading laws, which prohibit trading based on material non-public information.</p>
+                
+                <h3>User Responsibilities:</h3>
+                <ul>
+                    <li>Conduct your own due diligence before making any investment decisions</li>
+                    <li>Consult with qualified legal and financial professionals</li>
+                    <li>Understand and comply with insider trading regulations</li>
+                    <li>Be aware of potential conflicts of interest and legal implications</li>
+                </ul>
+            </div>
+
+            <div class="disclaimer-section">
+                <h2>Third-Party Content</h2>
+                <p>Our platform may contain links to third-party websites, content, or services. We are not responsible for the accuracy, reliability, or content of external sites. Access to any third-party website is at your own risk.</p>
+            </div>
+
+            <div class="disclaimer-section">
+                <h2>Limitation of Liability</h2>
+                <p>To the maximum extent permitted by law, Politrade.com shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your use of this platform.</p>
+            </div>
+
+            <div class="acknowledgment-section">
+                <h3>📋 Required Acknowledgments</h3>
+                <p>Before accessing Politrade.com services, you must acknowledge and agree to the following:</p>
+                
+                <div class="checkbox-container">
+                    <input type="checkbox" id="ack1" required>
+                    <label for="ack1">I understand that Politrade.com does not provide investment advice and is for informational purposes only</label>
+                </div>
+                
+                <div class="checkbox-container">
+                    <input type="checkbox" id="ack2" required>
+                    <label for="ack2">I understand that all investing involves risk, including possible loss of principal</label>
+                </div>
+                
+                <div class="checkbox-container">
+                    <input type="checkbox" id="ack3" required>
+                    <label for="ack3">I will conduct my own research and consult with qualified professionals before making investment decisions</label>
+                </div>
+                
+                <div class="checkbox-container">
+                    <input type="checkbox" id="ack4" required>
+                    <label for="ack4">I understand that congressional trading data may be delayed, incomplete, or inaccurate</label>
+                </div>
+                
+                <div class="checkbox-container">
+                    <input type="checkbox" id="ack5" required>
+                    <label for="ack5">I agree to comply with all applicable securities laws and regulations</label>
+                </div>
+                
+                <div class="checkbox-container">
+                    <input type="checkbox" id="ack6" required>
+                    <label for="ack6">I release Politrade.com from any liability for investment decisions I make based on information from this platform</label>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <button class="btn btn-accept" id="acceptBtn" disabled onclick="acceptDisclaimer()">I Acknowledge and Agree</button>
+                <button class="btn btn-decline" onclick="declineDisclaimer()">I Do Not Agree</button>
+            </div>
+
+            <div class="back-link">
+                <a href="index.html">← Back to Politrade.com</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Check all checkboxes to enable accept button
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        const acceptBtn = document.getElementById('acceptBtn');
+
+        function checkAllChecked() {
+            const allChecked = Array.from(checkboxes).every(cb => cb.checked);
+            acceptBtn.disabled = !allChecked;
+        }
+
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', checkAllChecked);
+        });
+
+        function acceptDisclaimer() {
+            // Store acknowledgment in localStorage
+            const acknowledgmentData = {
+                acknowledged: true,
+                timestamp: new Date().toISOString(),
+                userAgent: navigator.userAgent,
+                ipAddress: null // Will be filled by backend
+            };
+            
+            localStorage.setItem('politrade_disclaimer_acknowledgment', JSON.stringify(acknowledgmentData));
+            
+            // Redirect to registration or main site
+            window.location.href = 'index.html';
+        }
+
+        function declineDisclaimer() {
+            // Redirect away from the platform
+            alert('You must accept the disclaimer to use Politrade.com services.');
+            window.location.href = 'https://www.google.com';
+        }
+
+        // Check if already acknowledged
+        window.addEventListener('load', function() {
+            const existingAcknowledgment = localStorage.getItem('politrade_disclaimer_acknowledgment');
+            if (existingAcknowledgment) {
+                const data = JSON.parse(existingAcknowledgment);
+                if (data.acknowledged) {
+                    // User already acknowledged, redirect to main site
+                    window.location.href = 'index.html';
+                }
+            }
+        });
+    </script>
+</body>
+</html>
